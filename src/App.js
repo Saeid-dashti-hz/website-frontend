@@ -1,7 +1,6 @@
 import React from 'react';
+import './assets/styles/Register.css';
 import Register from './pages/Register';
-import './assets/styles/Register.css'; // Adjust the path if necessary
-import './App.css';
 
 function App() {
   return (
