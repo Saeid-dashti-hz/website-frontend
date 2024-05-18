@@ -1,50 +1,91 @@
-.register-container {
-    max-width: 600px;
-    margin: auto;
-    padding: 20px;
-    background-color: #87ceeb; /* Sky blue */
-    color: #00008b; /* Dark blue */
-    font-family: 'Calibri', sans-serif;
-    font-size: 18px;
-  }
-  
-  h2 {
-    color: #00008b; /* Dark blue */
-  }
-  
-  .form-group {
-    margin-bottom: 15px;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  input[type="text"],
-  input[type="number"] {
-    width: calc(45% - 10px);
-    padding: 8px;
-    margin-right: 10px;
-    font-family: 'Calibri', sans-serif;
-    font-size: 18px;
-  }
-  
-  input[type="checkbox"] {
-    margin-right: 5px;
-  }
-  
-  button {
-    background-color: #00008b; /* Dark blue */
-    color: white;
-    padding: 10px 20px;
-    font-family: 'Calibri', sans-serif;
-    font-size: 18px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #000070; /* Slightly darker blue */
-  }
-  
+/* src/assets/styles/Register.css */
+body {
+  background-color: skyblue;
+  font-family: 'Calibri', sans-serif;
+}
+
+.register {
+  background-color: darkblue;
+  color: white;
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register h1 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  width: 80%;
+}
+
+.label-inline {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+}
+
+.label-inline.insurance {
+  display: block;
+  font-size: 1.2rem;
+  width: 120%;
+}
+
+.input-inline {
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+  width: 45%;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+input[type="number"] {
+  width: 100px;
+  margin-right: 65px;
+}
+
+input[type="text"] {
+  width: 97%;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+button {
+  background-color: white;
+  color: darkblue;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: lightblue;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
