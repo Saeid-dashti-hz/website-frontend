@@ -6,7 +6,7 @@ body {
 
 .register {
   background-color: darkblue;
-  color: white;
+  color: rgb(197, 226, 240);
   width: 50%;
   margin: auto;
   padding: 20px;
@@ -32,12 +32,6 @@ body {
   font-size: 1.2rem;
 }
 
-.label-inline.insurance {
-  display: block;
-  font-size: 1.2rem;
-  width: 120%;
-}
-
 .input-inline {
   display: flex;
   justify-content: space-between;
@@ -53,6 +47,7 @@ textarea {
   border-radius: 10px;
   font-size: 1rem;
   box-sizing: border-box;
+  background-color: skyblue;
 }
 
 input[type="number"] {
@@ -64,12 +59,16 @@ input[type="text"] {
   width: 97%;
 }
 
+select {
+  width: 99%;
+}
+
 input[type="checkbox"] {
   margin-right: 10px;
 }
 
 button {
-  background-color: white;
+  background-color: skyblue;
   color: darkblue;
   border: none;
   padding: 10px 20px;

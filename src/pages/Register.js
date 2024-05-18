@@ -54,9 +54,9 @@ const Register = () => {
         <div className="form-group input-inline">
           <div>
             <label className="label-inline">Insurance Type:</label>
-            <select type="text" name="insurance" value={formData.insurance} onChange={handleChange}>
-              <option type="text" value="public">Public</option>
-              <option type="text" value="private">Private</option>
+            <select name="insurance" value={formData.insurance} onChange={handleChange} >
+              <option value="public">Public</option>
+              <option value="private">Private</option>
             </select>
           </div>
           <div>
