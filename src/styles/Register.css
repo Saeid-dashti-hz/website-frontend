@@ -1,51 +1,50 @@
-/* src/styles/Register.css */
 .register-container {
-    background-color: #87ceeb; /* sky blue */
-    padding: 20px;
-    border-radius: 8px;
-    width: 50%;
+    max-width: 600px;
     margin: auto;
-}
-
-h1 {
-    color: #00008b; /* dark blue */
+    padding: 20px;
+    background-color: #87ceeb; /* Sky blue */
+    color: #00008b; /* Dark blue */
     font-family: 'Calibri', sans-serif;
-    font-weight: bold;
-    font-size: 24px;
-}
-
-label {
+    font-size: 18px;
+  }
+  
+  h2 {
+    color: #00008b; /* Dark blue */
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
     display: block;
-    margin-top: 10px;
-    font-family: 'Calibri', sans-serif;
-    font-weight: bold;
-}
-
-input {
-    width: 100%;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: calc(45% - 10px);
     padding: 8px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+    margin-right: 10px;
     font-family: 'Calibri', sans-serif;
-    font-weight: bold;
-    font-size: 16px;
-}
-
-button {
-    background-color: #00008b; /* dark blue */
+    font-size: 18px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  button {
+    background-color: #00008b; /* Dark blue */
     color: white;
     padding: 10px 20px;
-    margin-top: 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
     font-family: 'Calibri', sans-serif;
-    font-weight: bold;
     font-size: 18px;
-}
-
-button:hover {
-    background-color: #4a0072;
-}
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #000070; /* Slightly darker blue */
+  }
+  
